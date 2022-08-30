@@ -2,7 +2,7 @@ package Medium;
 class Problem75 {
     public void sortColors(int[] nums) {
     
-        int red=0,blue=0,white=0;
+        int red=0, blue=0,white=0;
         for(int i =0;i<nums.length;i++){
             if(nums[i]==0)
                 red++;
