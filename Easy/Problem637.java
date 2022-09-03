@@ -26,4 +26,7 @@ class Problem637 {
         
         return rst;
     }
+    public static void main(String args[]){
+        
+    }
 }
