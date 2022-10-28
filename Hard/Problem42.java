@@ -6,6 +6,7 @@ class Problem42 {
         
         int n = height.length, ans = 0, i;
         int[] left = new int[n];
+        
         left[0] = height[0];
         for(i = 1; i < n; i++)
             left[i] = Math.max(left[i-1], height[i]);
