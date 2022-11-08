@@ -15,8 +15,7 @@ public class Problem297 {
 
 
     }
-
- priyan   // Decodes your encoded data to tree.
+   // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
         Queue<String> nodesLeft = new LinkedList<>();
         nodesLeft.addAll(Arrays.asList(data.split(",")));
