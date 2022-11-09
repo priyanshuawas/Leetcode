@@ -1,5 +1,4 @@
 package Medium;
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
