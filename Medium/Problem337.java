@@ -15,6 +15,8 @@ package Medium;
  * }
  */
 class Problem337 {
+    public Problem337() {
+    }
     public int rob(TreeNode root) {
         int [] answer= helper(root);
         return Math.max(answer[0],answer[1]);   
