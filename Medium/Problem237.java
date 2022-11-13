@@ -9,7 +9,8 @@ package Medium;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Problem237 {
+class Problem237
+ {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null){
             return null;
