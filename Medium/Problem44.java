@@ -10,7 +10,6 @@ class Problem445 {
         while(l2 != null){
             s2.push(l2.val);
             l2= l2.next;
-
         }
         int carry=0;
         ListNode newhead = null;
@@ -22,7 +21,6 @@ class Problem445 {
             newNode.next= newhead;
             newhead= newNode;
             carry=temp/10;
-
         }
         return newhead;
     }
