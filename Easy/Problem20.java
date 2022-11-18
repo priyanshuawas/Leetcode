@@ -9,7 +9,7 @@ class Problem206 {
         }
         else{
             ListNode nextNode= head.next;
-            head.next=null;
+            head.next=null;              // With the help of Recurion 
             ListNode rest= reverseList(nextNode);
             nextNode.next=head;
             return rest;
