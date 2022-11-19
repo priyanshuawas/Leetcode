@@ -1,17 +1,16 @@
 package Medium;
 class Problem7 {
     public int reverse(int x) {
-        long rev=0;
+        long revs=0;
         
         while(x!=0){
-            rev=rev*10+(x%10);
+            revs=revs*10+(x%10);
             x=x/10;
         }
-        if(rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE){
+        if(revs > Integer.MAX_VALUE || revs < Integer.MIN_VALUE){
             return 0;
-            
         }
-        return (int)rev;
+        return (int)revs;
         
         
     }
