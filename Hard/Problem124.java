@@ -7,6 +7,7 @@ class Problem124 {
     public int maxPathSum(TreeNode root){
         helper(root);
         return max;
+        
 
     }
     int helper(TreeNode root){
@@ -19,5 +20,4 @@ class Problem124 {
         int right=Math.max(helper(root.right),0);
         max= Math.max(max, root.val + left + right);
         return root.val + Math.max(left , right);
-        
     }
