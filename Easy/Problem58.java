@@ -9,6 +9,7 @@ class Problem58 {
             else
                 if(count>0){
                     return count;
+                    
                 }
         }
         return count;
