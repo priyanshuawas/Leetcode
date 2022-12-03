@@ -6,6 +6,7 @@ class Problem58 {
             if(s.charAt(i)!=' '){
                 count++; 
                 
+                
 
             }
             else
