@@ -15,6 +15,7 @@ class Problem110 {
             result = false;
         }
         return 1 + Math.max(l, r);
+        return 1;
 
     }
 
