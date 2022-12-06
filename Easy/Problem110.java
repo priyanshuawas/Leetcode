@@ -3,7 +3,8 @@ class Problem110 {
     boolean result= true;
     public boolean isBalanced(TreeNode root) {
         validate(root);
-        return result;   
+        return result;
+           
     }
     protected  int validate(TreeNode root){
         if(root == null){
