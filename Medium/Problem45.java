@@ -14,20 +14,9 @@ class  Problem45 {
                 
             }
             if(min!= Integer.MAX_VALUE){
-                dp[i]= min+1;
-                
-            }
-             
+                dp[i]= min+1;   
+            } 
         }
-        return dp[0];
-        
-            
-            
-            
-            
-            
-            
-            
-        
+        return dp[0];  
     }
 }
