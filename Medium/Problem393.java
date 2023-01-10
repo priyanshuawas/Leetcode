@@ -7,10 +7,8 @@ class Problem393 {
         int a4=240;
         int check=128;
         int c=0;
-
         for(int i=0;i<data.length;i++)
         {
-         
             if(c==0)
             {
                 if((data[i]&128)==0)continue;
@@ -24,7 +22,6 @@ class Problem393 {
                 c--;
             }
         }
-        
         return c==0;
     }
         
