@@ -1,7 +1,5 @@
 package Easy;
-
 import java.util.ArrayList;
-
 import javax.swing.tree.TreeNode;
 
 class Solution {
@@ -16,7 +14,6 @@ class Solution {
     }
      public void count(TreeNode n,ArrayList<Integer> l)
      {
-
          if(n==null)return;
          if(n.left==null && n.right==null)
          {
