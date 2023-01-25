@@ -1,4 +1,7 @@
 package medium;
+
+import javax.swing.tree.TreeNode;
+
 class Solution {
     int index;
     public TreeNode bstFromPreorder(int[] preorder) {
