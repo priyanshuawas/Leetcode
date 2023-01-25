@@ -1,5 +1,8 @@
 package Easy;
 
+import java.util.HashMap;
+import java.util.Map;
+
 class Problem1 {
     public int[] twoSum(int[] nums, int target) {
         int[] ans = new int[2];

@@ -1,6 +1,9 @@
 package Easy;
+
+import java.util.List;
+
 class Problem206 {
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList(List head) {
         if(head == null){
             return null;
         }
