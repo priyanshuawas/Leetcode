@@ -1,4 +1,7 @@
 package Medium;
+
+import java.util.List;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -10,19 +13,19 @@ package Medium;
  * }
  */
 class Problem328 {
-    public ListNode oddEvenList(ListNode head) {
+    public List oddEvenList(List head) {
         if(head == null){
             return null;
         
         }
-        ListNode odd = head, even= (ListNode) head.next, eventail= even;
+        List odd = head, even= (List) head.next, eventail= even;
 
         while(eventail != null && eventail.next != null){
             odd.next= eventail.next;
             eventail.next=eventail.next.next;
             odd.next.next= even;
-            odd= (ListNode) odd.next;
-            eventail=(ListNode) eventail.next;
+            odd= (List) odd.next;
+            eventail=(List) eventail.next;
 
 
         }
