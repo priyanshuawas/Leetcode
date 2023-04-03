@@ -15,14 +15,14 @@ class Problem328 {
             return null;
         
         }
-        ListNode odd = head, even= head.next, eventail= even;
+        ListNode odd = head, even= (ListNode) head.next, eventail= even;
 
         while(eventail != null && eventail.next != null){
             odd.next= eventail.next;
             eventail.next=eventail.next.next;
             odd.next.next= even;
-            odd= odd.next;
-            eventail=eventail.next;
+            odd= (ListNode) odd.next;
+            eventail=(ListNode) eventail.next;
 
 
         }
@@ -30,3 +30,4 @@ class Problem328 {
 
         
     }
+}

@@ -1,5 +1,5 @@
 package Medium;
-class Solution {
+class Problem442 {
     public char findTheDifference(String s, String t) {
         char c=0;
         for(int i=0; i<s.length(); ++i){

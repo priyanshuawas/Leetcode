@@ -1,5 +1,7 @@
 package Medium;
 
+import java.util.Arrays;
+
 class Problem1996 {
     public int numberOfWeakCharacters(int[][] properties) {
         
