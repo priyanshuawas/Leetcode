@@ -1,5 +1,7 @@
 package Medium;
 
+import java.util.Arrays;
+
 class Problem1329 {
     public int[][] diagonalSort(int[][] M) {
         int y = M.length, x = M[0].length - 1;
