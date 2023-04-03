@@ -2,10 +2,7 @@ package Medium;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
-
-import org.w3c.dom.Node;
 
 class Problem429 {
     public List<List<Integer>> levelOrder(Node root) {
