@@ -13,9 +13,7 @@ class problem783 {
 		if (root != null) {
 			helper(root.left,list);
 			list.add(root.val);
-			
 	        helper(root.right,list);
-			
 	    }
 		return list;
     }
