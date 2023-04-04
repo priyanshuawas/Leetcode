@@ -1,5 +1,7 @@
 package Medium;
 
+import java.util.Arrays;
+
 class Problem322 {
     public int coinChange(int[] coins, int amount) {
         int max= amount +1;
