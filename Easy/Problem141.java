@@ -1,9 +1,12 @@
 package Easy;
+
+import java.util.List;
+
 public class Problem141 {
-    public boolean hasCycle(ListNode head) {
+    public boolean hasCycle(List head) {
         if(head==null) return false;
-        ListNode slow=head;
-        ListNode fast=head;
+        List slow=head;
+        List fast=head;
         
         while(fast!=null && fast.next!=null){
             slow=slow.next;

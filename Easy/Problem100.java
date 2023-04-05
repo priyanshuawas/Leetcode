@@ -1,4 +1,7 @@
 package Easy;
+
+import javax.swing.tree.TreeNode;
+
 class Problem100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p==null && q==null){

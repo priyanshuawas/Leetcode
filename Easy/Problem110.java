@@ -1,4 +1,7 @@
 package Easy;
+
+import javax.swing.tree.TreeNode;
+
 class Problem110 {
     boolean result= true;
     public boolean isBalanced(TreeNode root) {
