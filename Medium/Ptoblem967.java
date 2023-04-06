@@ -1,8 +1,6 @@
 package Medium;
-
 import java.util.HashSet;
 import java.util.Set;
-
 class Problem967 {
     private void func(int num,int n, int k,Set<Integer> ans) {
     if(n==0) {
