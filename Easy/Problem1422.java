@@ -8,6 +8,7 @@ class Problem1422 {
             if(str.charAt(i)=='1')
             {
                 t++;
+
             }
         }
         int maximum=0;
@@ -27,6 +28,7 @@ class Problem1422 {
             }
         }
         return maximum;
+        
     }
     
 }
