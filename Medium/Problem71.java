@@ -1,4 +1,4 @@
-package Median;
+package Medium;
 
 import java.util.Deque;
 import java.util.LinkedList;
