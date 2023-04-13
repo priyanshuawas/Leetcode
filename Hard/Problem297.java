@@ -1,5 +1,6 @@
 package Hard;
 
+import javax.swing.tree.TreeNode;
 
 public class Problem297 {
 
@@ -12,7 +13,6 @@ public class Problem297 {
         String leftSerialized = serialize(root.left);
         String rightSerialized= serialize(root.right);
         return root.val + "," + leftSerialized + "," + rightSerialized;
-
 
     }
    // Decodes your encoded data to tree.

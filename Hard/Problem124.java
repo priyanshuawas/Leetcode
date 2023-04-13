@@ -1,7 +1,5 @@
 package Hard;
-
 import javax.swing.tree.TreeNode;
-
 class Problem124 {
     int max=Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root){
