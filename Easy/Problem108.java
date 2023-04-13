@@ -13,7 +13,7 @@ class Problem108 {
             return null;
         }
         int mid=l+(r-l)/2;
-        TreeNode node=nsew TreeNode(nums[mid]);
+        TreeNode node=new TreeNode(nums[mid]);
         node.left=helper(nums,l,mid-1);
         node.right=helper(nums,mid+1,r);
         return node;
