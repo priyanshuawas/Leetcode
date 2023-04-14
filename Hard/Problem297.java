@@ -3,8 +3,6 @@ package Hard;
 import javax.swing.tree.TreeNode;
 
 public class Problem297 {
-
-    // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         if(root == null){
             return "X";
