@@ -2,7 +2,7 @@ package Hard;
 
 import javax.swing.tree.TreeNode;
 
-public class Problem297 {
+public class Problem297 {   
     public String serialize(TreeNode root) {
         if(root == null){
             return "X";
