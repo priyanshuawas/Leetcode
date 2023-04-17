@@ -7,7 +7,8 @@ class problem2218{
 
         int[][] dp = new int[piles.size() + 1][k + 1];
         Arrays.fill(dp[0], 0);
-        for (int i = 1; i <= piles.size(); i++) {
+        for (int i = 1; i <= piles.siz
+        .e(); i++) {
             dp[i][0] = 0;
         }
         for (int i = 1; i <= piles.size(); i++) {
