@@ -1,4 +1,9 @@
 package Medium;
+
+import java.util.Stack;
+
+import javax.swing.tree.TreeNode;
+
 class Problem1372 {
     public int longestZigZag(TreeNode root) {
         Stack<Node> stack = new Stack<>();
