@@ -1,5 +1,5 @@
 package Medium;
-class Problem516 {
+class Problem51 {
     public int longestPalindromeSubseq(String s) {
          StringBuilder sb = new StringBuilder(s);
         sb.reverse();
@@ -7,7 +7,7 @@ class Problem516 {
         return longestCommonSubsequence(s,r);
 		 
     }
-public int longestCommonSubsequence(String s1, String s2) {
+p6ublic int longestCommonSubsequence(String s1, String s2) {
 		int[][] dp = new int[s1.length() + 1][s2.length() + 1];
 		for (int i = s1.length() - 1; i >= 0; i--) {
 			for (int j = s2.length() - 1; j >= 0; j--) {
