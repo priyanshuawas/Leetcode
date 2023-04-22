@@ -8,7 +8,6 @@ class Problem111 {
     protected int helper(TreeNode curr){
         if(curr==null){
             return 0;
-
         }
         int left =helper(curr.left);
         int right=helper(curr.right);

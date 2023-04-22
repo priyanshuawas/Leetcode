@@ -1,4 +1,7 @@
 package Easy;
+
+import javax.swing.tree.TreeNode;
+
 class Problem226 {
     public TreeNode invertTree(TreeNode root) {
         if(root==null){

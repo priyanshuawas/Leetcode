@@ -1,5 +1,7 @@
 package Hard;
 
+import java.util.Arrays;
+
 class Problem879 {
     int mod = (int) 1e9 + 7;
 

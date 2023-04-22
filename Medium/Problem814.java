@@ -17,19 +17,19 @@ class Problem814 {
         }
         return root;
     }
-    private boolean pruneNode(TreeNode node){
-        if(node.val == 0 && node.left == null && node.right == null) return true;
+    private boolean pruneNode(Object right2){
+        if(right2.val == 0 && right2.left == null && right2.right == null) return true;
         else{
             boolean left = true, right = true;
-            if(node.left != null){
-                left = pruneNode(node.left);
-                if(left) node.left = null;
+            if(right2.left != null){
+                left = pruneNode(right2.left);
+                if(left) right2.left = null;
             }
-            if(node.right != null){
-                right = pruneNode(node.right);
-                if(right) node.right = null;
+            if(right2.right != null){
+                right = pruneNode(right2.right);
+                if(right) right2.right = null;
             }
-            return (left && right) && node.val == 0;
+            return (left && right) && right2.val == 0;
         }
     }
 }

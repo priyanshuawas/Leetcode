@@ -14,4 +14,8 @@ public class Problem374 extends GuessGame {
         }
         return -1;
     }
+
+    private int guess(int mid) {
+        return 0;
+    }
 }

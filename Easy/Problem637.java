@@ -1,4 +1,7 @@
 package Easy;
+
+import java.util.LinkedList;
+
 class Problem637 {
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> rst = new ArrayList<>();

@@ -1,4 +1,7 @@
 package java;
+
+import java.util.Stack;
+
 class Problem2390 {
     public String removeStars(String s) {
         StringBuilder res = new StringBuilder();

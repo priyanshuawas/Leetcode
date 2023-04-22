@@ -1,5 +1,7 @@
 package Medium;
 
+import java.util.Arrays;
+
 class Problem869 {
     public boolean reorderedPowerOf2(int N) {
         char[] res1 = String.valueOf(N).toCharArray();

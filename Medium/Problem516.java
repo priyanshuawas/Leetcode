@@ -7,7 +7,7 @@ class Problem51 {
         return longestCommonSubsequence(s,r);
 		 
     }
-p6ublic int longestCommonSubsequence(String s1, String s2) {
+public int longestCommonSubsequence(String s1, String s2) {
 		int[][] dp = new int[s1.length() + 1][s2.length() + 1];
 		for (int i = s1.length() - 1; i >= 0; i--) {
 			for (int j = s2.length() - 1; j >= 0; j--) {

@@ -1,5 +1,7 @@
 package Easy;
 
+import java.util.List;
+
 import javax.swing.plaf.ListUI;
 
 /**
@@ -15,7 +17,7 @@ import javax.swing.plaf.ListUI;
 class   Problem21 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         
-        ListNode dummy= new ListUI(0);
+        List dummy= (List) new ListUI(0);
         ListNode current= dummy;
         while(list1 !=null && list2 !=null){
             if(list1.val <= list2.val) {
