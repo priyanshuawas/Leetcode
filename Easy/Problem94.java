@@ -1,10 +1,7 @@
 package Easy;
-
 import java.util.ArrayList;
 import java.util.Stack;
-
 import Hard.List;
-
 class Problem94 {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
